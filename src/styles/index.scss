@@ -210,25 +210,17 @@ body {
   flex-direction: column;
 }
 
-.nav__link a {
-  text-decoration: none;
-  color: #000;
-}
-
 .nav__link a:hover {
   color: $basic-color;
 }
 
-.nav__link:hover {
-  color: $basic-color;
-}
 
 .is-active {
   display: flex;
   color: $basic-color;
   align-items: center;
   justify-content: center;
-  background: white;
+  background: $background-color;
   line-height: 60px;
 }
 
